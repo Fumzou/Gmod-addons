@@ -8,6 +8,7 @@ if SERVER then
 end
 AddCSLuaFile("rankup/client/cl_rankup.lua")
 AddCSLuaFile("rankup/client/cl_menu.lua")
+AddCSLuaFile("rankup/client/cl_waterbuff.lua")
 resource.AddFile("materials/rankup_icon.vmt")
 
 if SERVER then
@@ -16,4 +17,5 @@ if SERVER then
 else
   include("rankup/client/cl_rankup.lua")
   include("rankup/client/cl_menu.lua")
+  include("rankup/client/cl_waterbuff.lua")
 end
